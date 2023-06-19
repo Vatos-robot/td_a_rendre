@@ -52,3 +52,8 @@ class ArgumentsParserSpec extends AnyFlatSpec with Matchers {
     }
 
 }
+
+
+class TestDataSpec extends AnyFunSuite {
+  // Les tests seront ajoutés ici
+}
