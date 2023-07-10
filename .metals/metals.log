@@ -1,0 +1,52 @@
+2023.07.10 18:37:17 INFO  Started: Metals version 0.11.12 in workspace '/Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre' for client Visual Studio Code 1.78.2.[0m
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/.metals/metals (H2 2.1)
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.026s)
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+juil. 10, 2023 6:37:17 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.129s)
+2023.07.10 18:37:17 INFO  time: initialize in 0.78s[0m
+2023.07.10 18:37:22 WARN  Build server is not auto-connectable.[0m
+2023.07.10 18:37:40 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/project/plugins.sbt[0m
+2023.07.10 18:37:46 INFO  no build target found for /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.07.10 18:37:46 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/ArgumentParser.scala[0m
+2023.07.10 18:37:48 INFO  time: code lens generation in 8.12s[0m
+2023.07.10 18:37:48 INFO  time: code lens generation in 1.52s[0m
+2023.07.10 18:38:11 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/test/scala/ArgumentsParserSpec.scala[0m
+juil. 10, 2023 6:38:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+juil. 10, 2023 6:38:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2023.07.10 18:38:51 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/ArgumentParser.scala[0m
+2023.07.10 18:38:55 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/Data.scala[0m
+2023.07.10 18:41:56 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/test/scala/ArgumentsParserSpec.scala[0m
+2023.07.10 18:42:28 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/test/scala/ArgumentsParserSpec.scala[0m
+2023.07.10 18:42:52 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/test/scala/ArgumentsParserSpec.scala[0m
+2023.07.10 18:43:51 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/ArgumentParser.scala[0m
+2023.07.10 18:45:17 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/ArgumentParser.scala[0m
+2023.07.10 18:47:42 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/Main.scala[0m
+2023.07.10 18:50:18 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/ArgumentParser.scala[0m
+2023.07.10 18:50:41 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/Main.scala[0m
+2023.07.10 18:51:02 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/Data.scala[0m
+2023.07.10 18:52:15 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/Main.scala[0m
+2023.07.10 18:52:30 WARN  no build target for: /Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/Main.scala[0m

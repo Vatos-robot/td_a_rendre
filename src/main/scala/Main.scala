@@ -1,4 +1,5 @@
 package fr.esgi.iabd.data
+import fr.esgi.iabd.data.{Arguments, ArgumentsParser}
 
 object Main extends App {
 

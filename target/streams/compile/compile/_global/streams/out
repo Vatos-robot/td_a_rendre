@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/Main.scala:2:8: object Arguments is not a member of package fr.esgi.iabd.data[0m
+[0m[[0m[31merror[0m] [0m[0mimport fr.esgi.iabd.data.{Arguments, ArgumentsParser}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/Main.scala:6:3: not found: value ArgumentsParser[0m
+[0m[[0m[31merror[0m] [0m[0m  ArgumentsParser.parse(args) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hugobarbosa/Desktop/ESGI/rendre/td_a_rendre/src/main/scala/Main.scala:11:22: not found: type Arguments[0m
+[0m[[0m[31merror[0m] [0m[0m  def run(arguments: Arguments): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
