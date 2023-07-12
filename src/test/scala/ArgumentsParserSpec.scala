@@ -8,22 +8,22 @@ class ArgumentsParserSpec extends AnyFlatSpec with Matchers {
     class ArgumentsParserTest extends AnyFunSuite {
     
         test("Parsing valid arguments with gender 'm'") {
-            val args = Array("--path", "/path/to/file.csv", "--gender", "m")
+            val args = Array("--path", "data1.csv", "--gender", "m")
             val result = ArgumentsParser.parse(args)
 
             assert(result.isDefined)
             val parsedArgs = result.get
-            assert(parsedArgs.path == "/path/to/file.csv")
+            assert(parsedArgs.path == "data1.csv")
             assert(parsedArgs.gender.contains("m"))
     }
 
         test("Parsing valid arguments with gender 'f'") {
-            val args = Array("--path", "/path/to/file.csv", "--gender", "f")
+            val args = Array("--path", "data1.csv", "--gender", "f")
             val result = ArgumentsParser.parse(args)
 
             assert(result.isDefined)
             val parsedArgs = result.get
-            assert(parsedArgs.path == "/path/to/file.csv")
+            assert(parsedArgs.path == "data1.csv)
             assert(parsedArgs.gender.contains("f"))
     }
 
